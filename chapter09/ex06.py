@@ -13,6 +13,3 @@ print('파일여부: ', os.path.isfile(file_path))
 print('디렉토리여부: ', os.path.isdir(file_path))
 
 print('파일 크기', os.path.getsize(file_path))
-
-file_path = os.path.join('a', 'b', 'c', 'test.jpg')
-print(file_path)
