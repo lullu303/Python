@@ -10,3 +10,7 @@ student_info[20150125] = '김진우'   # 재할당
 print(student_info[20150125])
 
 print(student_info)
+
+print(student_info.keys())  # 딕셔너리의 키만 출력
+print(student_info.values())    # 딕셔너리의 값만 출력
+print(student_info.items())   # 딕셔너리의 키와 값을 쌍으로 출력
