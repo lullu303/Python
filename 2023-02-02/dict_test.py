@@ -8,6 +8,8 @@ user_info = { 1:['hong kildong','hong@mail.com','010-2343-9870'],
 3:['jang younsil','jang@mail.com','010-7777-1234'], 
 4:['king sejong','king@mail.com','010-4567-0987']}
 
+# print(type(user_info)) # dict
+
 print(user_info)
 
 print(user_info.keys())
