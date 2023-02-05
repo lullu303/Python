@@ -8,7 +8,7 @@ class_A = [70,60,55,75,95,90,80,80,85,100]
 def class_avg(*args):
     
 
-    for i in args :
+    for i in class_A :
 
         total = 0
         total = total + class_A
