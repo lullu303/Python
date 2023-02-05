@@ -5,16 +5,13 @@
 
 class_A = [70,60,55,75,95,90,80,80,85,100]
 
-def class_avg(*args):
-    
-
-    for i in class_A :
-
-        total = 0
-        total = total + class_A
+def class_avg(*agrs):
+     total= 0
+     for i in args :
+        total = total + i
         avg = total / 10
-
-    return total
+     return avg
+     print(avg)
 
 class_avg()
 
